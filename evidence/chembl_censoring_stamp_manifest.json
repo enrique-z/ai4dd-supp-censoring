@@ -1,0 +1,682 @@
+{
+ "ledger_rows": {
+  "db::activities": {
+   "value": 24267312,
+   "claim_id": "db::activities",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "db::molecules": {
+   "value": 2878135,
+   "claim_id": "db::molecules",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "db::assays": {
+   "value": 1890749,
+   "claim_id": "db::assays",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev::n_potency": {
+   "value": 5013576,
+   "claim_id": "prev::n_potency",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "prev::censored_pct": {
+   "value": 24.34,
+   "claim_id": "prev::censored_pct",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "prev::right_pct": {
+   "value": 20.34,
+   "claim_id": "prev::right_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev::left_pct": {
+   "value": 3.99,
+   "claim_id": "prev::left_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev::n_right": {
+   "value": 1019917,
+   "claim_id": "prev::n_right",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_IC50::n": {
+   "value": 3262957,
+   "claim_id": "prev_IC50::n",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_IC50::censored_pct": {
+   "value": 21.43,
+   "claim_id": "prev_IC50::censored_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_IC50::right_pct": {
+   "value": 16.41,
+   "claim_id": "prev_IC50::right_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_IC50::left_pct": {
+   "value": 5.02,
+   "claim_id": "prev_IC50::left_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_Ki::n": {
+   "value": 751847,
+   "claim_id": "prev_Ki::n",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_Ki::censored_pct": {
+   "value": 20.13,
+   "claim_id": "prev_Ki::censored_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_Ki::right_pct": {
+   "value": 18.06,
+   "claim_id": "prev_Ki::right_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_Ki::left_pct": {
+   "value": 2.07,
+   "claim_id": "prev_Ki::left_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_Kd::n": {
+   "value": 204914,
+   "claim_id": "prev_Kd::n",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_Kd::censored_pct": {
+   "value": 54.57,
+   "claim_id": "prev_Kd::censored_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_Kd::right_pct": {
+   "value": 51.25,
+   "claim_id": "prev_Kd::right_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_Kd::left_pct": {
+   "value": 3.32,
+   "claim_id": "prev_Kd::left_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_EC50::n": {
+   "value": 561548,
+   "claim_id": "prev_EC50::n",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_EC50::censored_pct": {
+   "value": 25.04,
+   "claim_id": "prev_EC50::censored_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_EC50::right_pct": {
+   "value": 22.81,
+   "claim_id": "prev_EC50::right_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_EC50::left_pct": {
+   "value": 2.23,
+   "claim_id": "prev_EC50::left_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_AC50::n": {
+   "value": 232310,
+   "claim_id": "prev_AC50::n",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_AC50::censored_pct": {
+   "value": 50.42,
+   "claim_id": "prev_AC50::censored_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_AC50::right_pct": {
+   "value": 49.81,
+   "claim_id": "prev_AC50::right_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "prev_AC50::left_pct": {
+   "value": 0.61,
+   "claim_id": "prev_AC50::left_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "pchembl::exact_pct": {
+   "value": 96.53,
+   "claim_id": "pchembl::exact_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "pchembl::right_pct": {
+   "value": 0.0,
+   "claim_id": "pchembl::right_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "pchembl::left_pct": {
+   "value": 0.0,
+   "claim_id": "pchembl::left_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_IC50::exact_pmed": {
+   "value": 6.2211,
+   "claim_id": "s2_IC50::exact_pmed",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_IC50::right_pmed": {
+   "value": 4.5229,
+   "claim_id": "s2_IC50::right_pmed",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_IC50::right_delta": {
+   "value": -1.6982,
+   "claim_id": "s2_IC50::right_delta",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_IC50::left_delta": {
+   "value": 0.7789,
+   "claim_id": "s2_IC50::left_delta",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_Ki::exact_pmed": {
+   "value": 7.0306,
+   "claim_id": "s2_Ki::exact_pmed",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_Ki::right_pmed": {
+   "value": 5.2,
+   "claim_id": "s2_Ki::right_pmed",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_Ki::right_delta": {
+   "value": -1.8306,
+   "claim_id": "s2_Ki::right_delta",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_Ki::left_delta": {
+   "value": 0.2704,
+   "claim_id": "s2_Ki::left_delta",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_Kd::exact_pmed": {
+   "value": 6.6003,
+   "claim_id": "s2_Kd::exact_pmed",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_Kd::right_pmed": {
+   "value": 4.5229,
+   "claim_id": "s2_Kd::right_pmed",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_Kd::right_delta": {
+   "value": -2.0774,
+   "claim_id": "s2_Kd::right_delta",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_Kd::left_delta": {
+   "value": 2.3997,
+   "claim_id": "s2_Kd::left_delta",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_EC50::exact_pmed": {
+   "value": 6.301,
+   "claim_id": "s2_EC50::exact_pmed",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_EC50::right_pmed": {
+   "value": 4.301,
+   "claim_id": "s2_EC50::right_pmed",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_EC50::right_delta": {
+   "value": -2.0,
+   "claim_id": "s2_EC50::right_delta",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_EC50::left_delta": {
+   "value": 0.699,
+   "claim_id": "s2_EC50::left_delta",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_AC50::exact_pmed": {
+   "value": 5.1424,
+   "claim_id": "s2_AC50::exact_pmed",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_AC50::right_pmed": {
+   "value": 4.5229,
+   "claim_id": "s2_AC50::right_pmed",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_AC50::right_delta": {
+   "value": -0.6195,
+   "claim_id": "s2_AC50::right_delta",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s2_AC50::left_delta": {
+   "value": 1.6535,
+   "claim_id": "s2_AC50::left_delta",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s3_IC50::unsupported_actives_pct": {
+   "value": 3.47,
+   "claim_id": "s3_IC50::unsupported_actives_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s3_IC50::n_right_above6": {
+   "value": 50250,
+   "claim_id": "s3_IC50::n_right_above6",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s3_Ki::unsupported_actives_pct": {
+   "value": 3.47,
+   "claim_id": "s3_Ki::unsupported_actives_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s3_Ki::n_right_above6": {
+   "value": 16179,
+   "claim_id": "s3_Ki::n_right_above6",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s3_Kd::unsupported_actives_pct": {
+   "value": 2.69,
+   "claim_id": "s3_Kd::unsupported_actives_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s3_Kd::n_right_above6": {
+   "value": 1668,
+   "claim_id": "s3_Kd::n_right_above6",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s3_EC50::unsupported_actives_pct": {
+   "value": 3.52,
+   "claim_id": "s3_EC50::unsupported_actives_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s3_EC50::n_right_above6": {
+   "value": 8826,
+   "claim_id": "s3_EC50::n_right_above6",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s3_AC50::unsupported_actives_pct": {
+   "value": 1.35,
+   "claim_id": "s3_AC50::unsupported_actives_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s3_AC50::n_right_above6": {
+   "value": 184,
+   "claim_id": "s3_AC50::n_right_above6",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::n_eligible": {
+   "value": 159,
+   "claim_id": "s4::n_eligible",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::n_targets": {
+   "value": 158,
+   "claim_id": "s4::n_targets",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::n_fits": {
+   "value": 6320,
+   "claim_id": "s4::n_fits",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::n_converged": {
+   "value": 5906,
+   "claim_id": "s4::n_converged",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::converged_pct": {
+   "value": 93.45,
+   "claim_id": "s4::converged_pct",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::converged_pct_naive": {
+   "value": 97.28,
+   "claim_id": "s4::converged_pct_naive",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::converged_pct_exact": {
+   "value": 90.32,
+   "claim_id": "s4::converged_pct_exact",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::converged_pct_tobit": {
+   "value": 96.71,
+   "claim_id": "s4::converged_pct_tobit",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::converged_pct_matched": {
+   "value": 89.49,
+   "claim_id": "s4::converged_pct_matched",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::naive_mean_rmse": {
+   "value": 0.8853,
+   "claim_id": "s4::naive_mean_rmse",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::exact_mean_rmse": {
+   "value": 0.9629,
+   "claim_id": "s4::exact_mean_rmse",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::tobit_mean_rmse": {
+   "value": 0.993,
+   "claim_id": "s4::tobit_mean_rmse",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::matched_mean_rmse": {
+   "value": 1.0094,
+   "claim_id": "s4::matched_mean_rmse",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::naive_minus_exact_mean": {
+   "value": -0.0777,
+   "claim_id": "s4::naive_minus_exact_mean",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::naive_minus_exact_lo": {
+   "value": -0.1038,
+   "claim_id": "s4::naive_minus_exact_lo",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::naive_minus_exact_hi": {
+   "value": -0.0545,
+   "claim_id": "s4::naive_minus_exact_hi",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::n_targets_naive_worse": {
+   "value": 45,
+   "claim_id": "s4::n_targets_naive_worse",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::naive_median": {
+   "value": -0.0339,
+   "claim_id": "s4::naive_median",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::tobit_minus_exact_mean": {
+   "value": 0.0301,
+   "claim_id": "s4::tobit_minus_exact_mean",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::tobit_minus_exact_lo": {
+   "value": 0.0081,
+   "claim_id": "s4::tobit_minus_exact_lo",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::tobit_minus_exact_hi": {
+   "value": 0.0565,
+   "claim_id": "s4::tobit_minus_exact_hi",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::n_targets_tobit_worse": {
+   "value": 125,
+   "claim_id": "s4::n_targets_tobit_worse",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::tobit_median": {
+   "value": 0.0272,
+   "claim_id": "s4::tobit_median",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::tobit_minus_naive_mean": {
+   "value": 0.1077,
+   "claim_id": "s4::tobit_minus_naive_mean",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::tobit_minus_naive_lo": {
+   "value": 0.0893,
+   "claim_id": "s4::tobit_minus_naive_lo",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::tobit_minus_naive_hi": {
+   "value": 0.1305,
+   "claim_id": "s4::tobit_minus_naive_hi",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::n_targets_tobit_vs_naive_worse": {
+   "value": 156,
+   "claim_id": "s4::n_targets_tobit_vs_naive_worse",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::tobit_vs_naive_median": {
+   "value": 0.0763,
+   "claim_id": "s4::tobit_vs_naive_median",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::n_targets_all_converged": {
+   "value": 129,
+   "claim_id": "s4::n_targets_all_converged",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::naive_minus_exact_converged_only": {
+   "value": -0.0617,
+   "claim_id": "s4::naive_minus_exact_converged_only",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::tobit_minus_naive_converged_only": {
+   "value": 0.0973,
+   "claim_id": "s4::tobit_minus_naive_converged_only",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::naive_minus_exact_paired_n_targets": {
+   "value": 148,
+   "claim_id": "s4::naive_minus_exact_paired_n_targets",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::naive_minus_exact_paired_mean": {
+   "value": -0.0663,
+   "claim_id": "s4::naive_minus_exact_paired_mean",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::naive_minus_exact_paired_lo": {
+   "value": -0.0888,
+   "claim_id": "s4::naive_minus_exact_paired_lo",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::naive_minus_exact_paired_hi": {
+   "value": -0.0465,
+   "claim_id": "s4::naive_minus_exact_paired_hi",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::naive_minus_exact_paired_sign_frac": {
+   "value": 0.709,
+   "claim_id": "s4::naive_minus_exact_paired_sign_frac",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::tobit_minus_naive_paired_n_targets": {
+   "value": 156,
+   "claim_id": "s4::tobit_minus_naive_paired_n_targets",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::tobit_minus_naive_paired_mean": {
+   "value": 0.1093,
+   "claim_id": "s4::tobit_minus_naive_paired_mean",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::tobit_minus_naive_paired_lo": {
+   "value": 0.0908,
+   "claim_id": "s4::tobit_minus_naive_paired_lo",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::tobit_minus_naive_paired_hi": {
+   "value": 0.1323,
+   "claim_id": "s4::tobit_minus_naive_paired_hi",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::tobit_minus_naive_paired_sign_frac": {
+   "value": 0.994,
+   "claim_id": "s4::tobit_minus_naive_paired_sign_frac",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::matched_minus_exact_mean": {
+   "value": 0.0465,
+   "claim_id": "s4::matched_minus_exact_mean",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::matched_minus_exact_lo": {
+   "value": 0.0349,
+   "claim_id": "s4::matched_minus_exact_lo",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::matched_minus_exact_hi": {
+   "value": 0.0586,
+   "claim_id": "s4::matched_minus_exact_hi",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::matched_median": {
+   "value": 0.0322,
+   "claim_id": "s4::matched_median",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::n_targets_matched_worse": {
+   "value": 149,
+   "claim_id": "s4::n_targets_matched_worse",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::matched_share_pct": {
+   "value": 0.0,
+   "claim_id": "s4::matched_share_pct",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::p3_rho_matched": {
+   "value": 0.429,
+   "claim_id": "s4::p3_rho_matched",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::p3_p_matched": {
+   "value": 1.92e-08,
+   "claim_id": "s4::p3_p_matched",
+   "source": "censoring_raw.json",
+   "must_print": false
+  },
+  "s4::p3_rho": {
+   "value": -0.567,
+   "claim_id": "s4::p3_rho",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::p3_p": {
+   "value": 8.16e-15,
+   "claim_id": "s4::p3_p",
+   "source": "censoring_raw.json",
+   "must_print": true
+  },
+  "s4::cens_frac_median": {
+   "value": 0.1427,
+   "claim_id": "s4::cens_frac_median",
+   "source": "censoring_raw.json",
+   "must_print": false
+  }
+ }
+}

@@ -1,0 +1,368 @@
+% refs.bib — every entry live-verified against arXiv/Crossref.
+% Round 1 edit (2026-09-04): deleted 20 uncited conformal-prediction and
+% unrelated dataset entries; added 20 new topically relevant entries, each
+% re-resolved via api.crossref.org/works/<doi> or export.arxiv.org/abs/<id>
+% before inclusion (zero tolerance for unresolved keys).
+% WITHHELD as unverifiable: kramer2012experimental (no record resolves);
+% landrum2024chembl (DOI 10.1186/s13321-024-00860-x resolves to
+% 'AiZynthFinder 4.0', not the claimed title).
+
+% ======================================================================
+% EXISTING CITED ENTRIES (10) — unchanged from pre-round-1
+% ======================================================================
+
+@article{wu2018moleculenet,
+  author = {Zhenqin Wu and Bharath Ramsundar and Evan N. Feinberg and Joseph Gomes and Caleb Geniesse and Aneesh S. Pappu and Karl Leswing and Vijay Pande},
+  title = {MoleculeNet: a benchmark for molecular machine learning},
+  year = {2018},
+  journal = {Chemical Science},
+  doi = {10.1039/c7sc02664a}
+}
+
+@article{bemis1996properties,
+  author = {Guy W. Bemis and Mark A. Murcko},
+  title = {The Properties of Known Drugs. 1. Molecular Frameworks},
+  year = {1996},
+  journal = {Journal of Medicinal Chemistry},
+  doi = {10.1021/jm9602928}
+}
+
+@misc{zheng2026beyond,
+  author = {Jiacheng Zheng and Chang Guo and Zixuan Wang and Xinyu Liu and Hao Chen},
+  title = {Beyond Scaffold Splits: Structural-Frontier Evaluation Reveals Hidden Failures in ADMET Models},
+  year = {2026},
+  eprint = {2607.10729},
+  archivePrefix = {arXiv},
+  note = {arXiv:2607.10729}
+}
+
+@article{zdrazil2024chembl,
+  author = {Barbara Zdrazil and Eloy Felix and Fiona Hunter and Emma J Manners and James Blackshaw and Sybilla Corbett and {de Veij}, Marleen and Harris Ioannidis and David Mendez Lopez and Juan F Mosquera and Maria Paula Magarinos and Nicolas Bosc and Ricardo Arcila and Tevfik Kizilören and Anna Gaulton and A Patrícia Bento and Melissa F Adasme and Peter Monecke and Gregory A Landrum and Andrew R Leach},
+  title = {The ChEMBL Database in 2023: a drug discovery platform spanning multiple bioactivity data types and time periods},
+  year = {2024},
+  journal = {Nucleic Acids Research},
+  doi = {10.1093/nar/gkad1004}
+}
+
+@article{gaulton2012chembl,
+  author = {A. Gaulton and L. J. Bellis and A. P. Bento and J. Chambers and M. Davies and A. Hersey and Y. Light and S. McGlinchey and D. Michalovich and B. Al-Lazikani and J. P. Overington},
+  title = {ChEMBL: a large-scale bioactivity database for drug discovery},
+  year = {2012},
+  journal = {Nucleic Acids Research},
+  doi = {10.1093/nar/gkr777}
+}
+
+@article{tobin1958estimation,
+  author = {James Tobin},
+  title = {Estimation of Relationships for Limited Dependent Variables},
+  year = {1958},
+  journal = {Econometrica},
+  doi = {10.2307/1907382}
+}
+
+@article{kalliokoski2013comparability,
+  author = {Tuomo Kalliokoski and Christian Kramer and Anna Vulpetti and Peter Gedeck},
+  title = {Comparability of Mixed IC50 Data -- A Statistical Analysis},
+  year = {2013},
+  journal = {PLoS ONE},
+  doi = {10.1371/journal.pone.0061007}
+}
+
+@article{fralish2024bounded,
+  author  = {Fralish, Zachary and Skaluba, Paul and Reker, Daniel},
+  title   = {Leveraging bounded datapoints to classify molecular potency improvements},
+  journal = {RSC Medicinal Chemistry},
+  year    = {2024},
+  volume  = {15},
+  number  = {7},
+  pages   = {2474--2482},
+  doi     = {10.1039/d4md00325j}
+}
+
+@article{svensson2025censored,
+  author  = {Svensson, Emma and Friesacher, Hannah Rosa and Winiwarter, Susanne
+             and Mervin, Lewis and Arany, Adam and Engkvist, Ola},
+  title   = {Enhancing uncertainty quantification in drug discovery with censored regression labels},
+  journal = {Artificial Intelligence in the Life Sciences},
+  year    = {2025},
+  volume  = {7},
+  pages   = {100128},
+  doi     = {10.1016/j.ailsci.2025.100128}
+}
+
+@article{lind2010qsar,
+  author  = {Lind, Peter},
+  title   = {{QSAR} Analysis Involving Assay Results Which are only Known to be
+             Greater Than, or Less Than Some Cut-off Limit},
+  journal = {Molecular Informatics},
+  year    = {2010},
+  volume  = {29},
+  number  = {12},
+  pages   = {845--852},
+  doi     = {10.1002/minf.201000074}
+}
+
+% ======================================================================
+% NEW ENTRIES (20) — all live-verified 2026-09-04
+% ======================================================================
+
+% --- Fingerprints ---
+@article{rogers2010ecfp,
+  author  = {David Rogers and Mathew Hahn},
+  title   = {Extended-Connectivity Fingerprints},
+  journal = {Journal of Chemical Information and Modeling},
+  year    = {2010},
+  volume  = {50},
+  number  = {5},
+  pages   = {742--754},
+  doi     = {10.1021/ci100050t}
+}
+
+% --- Classical censored regression ---
+@article{amemiya1984tobit,
+  author  = {Takeshi Amemiya},
+  title   = {Tobit models: {A} survey},
+  journal = {Journal of Econometrics},
+  year    = {1984},
+  volume  = {24},
+  number  = {1--2},
+  pages   = {3--61},
+  doi     = {10.1016/0304-4076(84)90074-5}
+}
+
+@article{buckley1979linear,
+  author  = {Jonathan Buckley and Ian James},
+  title   = {Linear regression with censored data},
+  journal = {Biometrika},
+  year    = {1979},
+  volume  = {66},
+  number  = {3},
+  pages   = {429--436},
+  doi     = {10.1093/biomet/66.3.429}
+}
+
+@article{powell1984lad,
+  author  = {James L. Powell},
+  title   = {Least absolute deviations estimation for the censored regression model},
+  journal = {Journal of Econometrics},
+  year    = {1984},
+  volume  = {25},
+  number  = {3},
+  pages   = {303--325},
+  doi     = {10.1016/0304-4076(84)90004-6}
+}
+
+% --- Optimisation ---
+@article{liunocedal1989lbfgs,
+  author  = {Dong C. Liu and Jorge Nocedal},
+  title   = {On the limited memory {BFGS} method for large scale optimization},
+  journal = {Mathematical Programming},
+  year    = {1989},
+  volume  = {45},
+  number  = {1--3},
+  pages   = {503--528},
+  doi     = {10.1007/bf01589116}
+}
+
+% --- Ridge regression ---
+@article{hoerl1970ridge,
+  author  = {Arthur E. Hoerl and Robert W. Kennard},
+  title   = {Ridge Regression: Biased Estimation for Nonorthogonal Problems},
+  journal = {Technometrics},
+  year    = {1970},
+  volume  = {12},
+  number  = {1},
+  pages   = {55--67},
+  doi     = {10.1080/00401706.1970.10488634}
+}
+
+% --- ChEMBL release lineage ---
+@article{mendez2019chembl,
+  author  = {David Mendez and Anna Gaulton and A. Patr{\'i}cia Bento and Jon Chambers
+             and {De Veij}, Marleen and Eloy F{\'e}lix and Mar{\'i}a Paula Magarinos
+             and Juan F. Mosquera and Prudence Mutowo and Micha{\l} Nowotka
+             and Mar{\'i}a Gordillo-Mara{\~n}{\'o}n and Fiona Hunter and Laura Junco
+             and Grace Mugumbate and Milagros Rodriguez-Lopez and Francis Atkinson
+             and Nicolas Bosc and Christopher J. Radoux and Aldo Segura-Cabrera
+             and Anne Hersey and Andrew R. Leach},
+  title   = {{ChEMBL}: towards direct deposition of bioassay data},
+  journal = {Nucleic Acids Research},
+  year    = {2019},
+  volume  = {47},
+  number  = {D1},
+  pages   = {D930--D940},
+  doi     = {10.1093/nar/gky1075}
+}
+
+@article{bento2014chembl,
+  author  = {A. Patr{\'i}cia Bento and Anna Gaulton and Anne Hersey and Louisa J. Bellis
+             and Jon Chambers and Mark Davies and F{\'a}tima Kr{\"u}ger and Yvonne Light
+             and Lora Mak and Shaun McGlinchey and Michal Nowotka and George Papadatos
+             and Rita Santos and John P. Overington},
+  title   = {The {ChEMBL} bioactivity database: an update},
+  journal = {Nucleic Acids Research},
+  year    = {2014},
+  volume  = {42},
+  number  = {D1},
+  pages   = {D1083--D1090},
+  doi     = {10.1093/nar/gkt1031}
+}
+
+@article{gaulton2017chembl,
+  author  = {Anna Gaulton and Anne Hersey and Micha{\l} Nowotka and A. Patr{\'i}cia Bento
+             and Jon Chambers and David Mendez and Prudence Mutowo and Francis Atkinson
+             and Louisa J. Bellis and Elena Cibri{\'a}n-Uhalte and Mark Davies
+             and Nathan Dedman and Anneli Karlsson and Mar{\'i}a Paula Magarinos
+             and John P. Overington and George Papadatos and Ines Smit and Andrew R. Leach},
+  title   = {The {ChEMBL} database in 2017},
+  journal = {Nucleic Acids Research},
+  year    = {2017},
+  volume  = {45},
+  number  = {D1},
+  pages   = {D945--D954},
+  doi     = {10.1093/nar/gkw1074}
+}
+
+% --- ChEMBL data quality ---
+@article{papadatos2015chembl,
+  author  = {George Papadatos and Anna Gaulton and Anne Hersey and John P. Overington},
+  title   = {Activity, assay and target data curation and quality in the {ChEMBL} database},
+  journal = {Journal of Computer-Aided Molecular Design},
+  year    = {2015},
+  volume  = {29},
+  number  = {9},
+  pages   = {885--896},
+  doi     = {10.1007/s10822-015-9860-5}
+}
+
+% --- Survival analysis / censoring ---
+@article{kaplanmeier1958,
+  author  = {E. L. Kaplan and Paul Meier},
+  title   = {Nonparametric Estimation from Incomplete Observations},
+  journal = {Journal of the American Statistical Association},
+  year    = {1958},
+  volume  = {53},
+  number  = {282},
+  pages   = {457--481},
+  doi     = {10.1080/01621459.1958.10501452}
+}
+
+% --- Bioactivity measurement error ---
+@article{kramer2012data,
+  author  = {Christian Kramer and Richard Lewis},
+  title   = {{QSARs}, Data and Error in the Modern Age of Drug Discovery},
+  journal = {Current Topics in Medicinal Chemistry},
+  year    = {2012},
+  volume  = {12},
+  number  = {17},
+  pages   = {1896--1902},
+  doi     = {10.2174/156802612804547380}
+}
+
+% --- Temporal / prospective evaluation ---
+@article{sheridan2013timesplit,
+  author  = {Robert P. Sheridan},
+  title   = {Time-Split Cross-Validation as a Method for Estimating the Goodness of Prospective Prediction},
+  journal = {Journal of Chemical Information and Modeling},
+  year    = {2013},
+  volume  = {53},
+  number  = {4},
+  pages   = {783--790},
+  doi     = {10.1021/ci400084k}
+}
+
+% --- Data quantity vs. quality in bioactivity ---
+@article{schiebroek2026curation,
+  author  = {Carl C. G. Schiebroek and Gregory A. Landrum and Sereina Riniker},
+  title   = {Balancing Data Quantity and Quality: Evaluating Curation Strategies for
+             Bioactivity Prediction in Lead Optimization},
+  journal = {Journal of Chemical Information and Modeling},
+  year    = {2026},
+  doi     = {10.1021/acs.jcim.6c01018}
+}
+
+% --- Data quality in ML for drug discovery (preprint) ---
+@misc{walters2026dataquality,
+  author       = {W. Patrick Walters},
+  title        = {Data Quality and Benchmarking Rigor in Machine Learning for Drug
+                  Discovery: {A} Perspective on Aqueous Solubility Modeling},
+  year         = {2026},
+  note         = {Preprints, doi:10.20944/preprints202607.0468.v1},
+  doi          = {10.20944/preprints202607.0468.v1}
+}
+
+% --- Label noise ---
+@article{frenay2014labelnoise,
+  author  = {Beno\^{\i}t Fr{\'e}nay and Michel Verleysen},
+  title   = {Classification in the Presence of Label Noise: {A} Survey},
+  journal = {IEEE Transactions on Neural Networks and Learning Systems},
+  year    = {2014},
+  volume  = {25},
+  number  = {5},
+  pages   = {845--869},
+  doi     = {10.1109/TNNLS.2013.2292894}
+}
+
+% --- Bootstrap ---
+@article{efron1979bootstrap,
+  author  = {Bradley Efron},
+  title   = {Bootstrap Methods: Another Look at the Jackknife},
+  journal = {The Annals of Statistics},
+  year    = {1979},
+  volume  = {7},
+  number  = {1},
+  pages   = {1--26},
+  doi     = {10.1214/aos/1176344552}
+}
+
+% --- Scientific software ---
+@article{virtanen2020scipy,
+  author  = {Pauli Virtanen and Ralf Gommers and Travis E. Oliphant and
+             Matt Haberland and Tyler Reddy and David Cournapeau and
+             Evgeni Burovski and Pearu Peterson and Warren Weckesser and
+             Jonathan Bright and {van der Walt}, St{\'e}fan J. and
+             Matthew Brett and Joshua Wilson and K. Jarrod Millman and
+             Nikolay Mayorov and Andrew R. J. Nelson and Eric Jones and
+             Robert Kern and Eric Larson and C. J. Carey and {\.I}lhan Polat
+             and Yu Feng and Eric W. Moore and Jake VanderPlas and
+             Denis Laxalde and Josef Perktold and Robert Cimrman and
+             Ian Henriksen and E. A. Quintero and Charles R. Harris and
+             Anne M. Archibald and Ant{\^o}nio H. Ribeiro and
+             Fabian Pedregosa and {van Mulbregt}, Paul and
+             {SciPy 1.0 Contributors}},
+  title   = {{SciPy} 1.0: Fundamental Algorithms for Scientific Computing in Python},
+  journal = {Nature Methods},
+  year    = {2020},
+  volume  = {17},
+  pages   = {261--272},
+  doi     = {10.1038/s41592-019-0686-2}
+}
+
+@article{harris2020numpy,
+  author  = {Charles R. Harris and K. Jarrod Millman and {van der Walt}, St{\'e}fan J.
+             and Ralf Gommers and Pauli Virtanen and David Cournapeau and
+             Eric Wieser and Julian Taylor and Sebastian Berg and
+             Nathaniel J. Smith and Robert Kern and Matti Picus and
+             Stephan Hoyer and {van Kerkwijk}, Marten H. and Matthew Brett and
+             Allan Haldane and {del R{\'i}o}, Jaime Fern{\'a}ndez and Mark Wiebe
+             and Pearu Peterson and Pierre G{\'e}rard-Marchant and
+             Kevin Sheppard and Tyler Reddy and Warren Weckesser and
+             Hameer Abbasi and Christoph Gohlke and Travis E. Oliphant},
+  title   = {Array programming with {NumPy}},
+  journal = {Nature},
+  year    = {2020},
+  volume  = {585},
+  pages   = {357--362},
+  doi     = {10.1038/s41586-020-2649-2}
+}
+
+@article{hunter2007matplotlib,
+  author  = {John D. Hunter},
+  title   = {Matplotlib: {A} 2D Graphics Environment},
+  journal = {Computing in Science \& Engineering},
+  year    = {2007},
+  volume  = {9},
+  number  = {3},
+  pages   = {90--95},
+  doi     = {10.1109/MCSE.2007.55}
+}

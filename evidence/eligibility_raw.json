@@ -1,0 +1,7 @@
+{
+ "generated_utc": "2026-09-03T22:09:47Z",
+ "query": "select a.tid, count(*) c, sum(case when act.standard_relation in ('>','>=','>>') then 1 else 0 end) r from activities act join assays a on act.assay_id = a.assay_id join target_dictionary td on a.tid = td.tid where act.standard_type='IC50' and act.standard_units='nM' and act.standard_value > 0 and td.target_type='SINGLE PROTEIN' group by a.tid having c > 2000 order by c desc",
+ "inclusion_rule": "single protein, >2000 IC50 nM records, >=200 right-censored",
+ "n_over_2000_records": 209,
+ "n_eligible": 159
+}

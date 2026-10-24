@@ -1,0 +1,17 @@
+{
+ "figure": "fig_s4.pdf",
+ "claim_ids": [
+  "s4::matched_minus_exact_hi",
+  "s4::matched_minus_exact_lo",
+  "s4::matched_minus_exact_mean",
+  "s4::n_targets",
+  "s4::naive_minus_exact_hi",
+  "s4::naive_minus_exact_lo",
+  "s4::naive_minus_exact_mean",
+  "s4::p3_rho",
+  "s4::p3_rho_matched",
+  "s4::tobit_minus_naive_hi",
+  "s4::tobit_minus_naive_lo",
+  "s4::tobit_minus_naive_mean"
+ ]
+}

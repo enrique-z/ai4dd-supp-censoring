@@ -1,0 +1,373 @@
+{
+ "full_gate": {
+  "max_abs_rmse_diff_all_158x10x4": 0.0,
+  "conv_flag_mismatches": 0
+ },
+ "corr_vs_orig_1e-3_per_arm": {
+  "rmse_naive": {
+   "mean": -1e-05,
+   "max_abs": 0.0012,
+   "n_targets_abs_gt_0.01": 0
+  },
+  "rmse_exact_only": {
+   "mean": 3e-05,
+   "max_abs": 0.0045,
+   "n_targets_abs_gt_0.01": 0
+  },
+  "rmse_censoring_aware": {
+   "mean": -0.00521,
+   "max_abs": 0.7974,
+   "n_targets_abs_gt_0.01": 3
+  },
+  "rmse_naive_matched": {
+   "mean": 8e-05,
+   "max_abs": 0.0126,
+   "n_targets_abs_gt_0.01": 1
+  }
+ },
+ "tobit_biggest_moves": [
+  {
+   "tid": 103719,
+   "target": "Polyadenylate-binding protein 1",
+   "n_exact_train": 243,
+   "cens_frac": 0.77,
+   "tobit_orig": 1.93341,
+   "tobit_corr": 1.13606,
+   "exact": 0.3482,
+   "naive": 0.60688,
+   "orig_sigma_bound_seeds": 10,
+   "corr_sigma_bound_seeds": 3,
+   "corr_conv": 0
+  },
+  {
+   "tid": 10594,
+   "target": "cGMP-dependent 3',5'-cyclic phosphodiesterase",
+   "n_exact_train": 1173,
+   "cens_frac": 0.1048,
+   "tobit_orig": 1.09561,
+   "tobit_corr": 1.08307,
+   "exact": 1.03949,
+   "naive": 1.00467,
+   "orig_sigma_bound_seeds": 0,
+   "corr_sigma_bound_seeds": 0,
+   "corr_conv": 10
+  },
+  {
+   "tid": 133,
+   "target": "Peroxisome proliferator-activated receptor ga",
+   "n_exact_train": 1190,
+   "cens_frac": 0.1184,
+   "tobit_orig": 1.06507,
+   "tobit_corr": 1.05492,
+   "exact": 1.0415,
+   "naive": 1.01641,
+   "orig_sigma_bound_seeds": 0,
+   "corr_sigma_bound_seeds": 0,
+   "corr_conv": 10
+  },
+  {
+   "tid": 105130,
+   "target": "Glutaminase kidney isoform, mitochondrial",
+   "n_exact_train": 1066,
+   "cens_frac": 0.1023,
+   "tobit_orig": 0.81843,
+   "tobit_corr": 0.81651,
+   "exact": 0.66872,
+   "naive": 0.75254,
+   "orig_sigma_bound_seeds": 0,
+   "corr_sigma_bound_seeds": 0,
+   "corr_conv": 10
+  },
+  {
+   "tid": 14037,
+   "target": "D(2) dopamine receptor",
+   "n_exact_train": 1148,
+   "cens_frac": 0.2056,
+   "tobit_orig": 1.03818,
+   "tobit_corr": 1.03662,
+   "exact": 1.06738,
+   "naive": 0.9456,
+   "orig_sigma_bound_seeds": 0,
+   "corr_sigma_bound_seeds": 0,
+   "corr_conv": 10
+  },
+  {
+   "tid": 10906,
+   "target": "Tyrosine-protein kinase SYK",
+   "n_exact_train": 3839,
+   "cens_frac": 0.0592,
+   "tobit_orig": 0.74246,
+   "tobit_corr": 0.74212,
+   "exact": 0.72667,
+   "naive": 0.72273,
+   "orig_sigma_bound_seeds": 0,
+   "corr_sigma_bound_seeds": 0,
+   "corr_conv": 10
+  },
+  {
+   "tid": 10752,
+   "target": "Inhibitor of nuclear factor kappa-B kinase su",
+   "n_exact_train": 817,
+   "cens_frac": 0.1818,
+   "tobit_orig": 1.39384,
+   "tobit_corr": 1.39376,
+   "exact": 1.31141,
+   "naive": 1.42917,
+   "orig_sigma_bound_seeds": 0,
+   "corr_sigma_bound_seeds": 0,
+   "corr_conv": 1
+  },
+  {
+   "tid": 11287,
+   "target": "Coagulation factor XI",
+   "n_exact_train": 1137,
+   "cens_frac": 0.1061,
+   "tobit_orig": 0.93012,
+   "tobit_corr": 0.93008,
+   "exact": 0.92187,
+   "naive": 0.9117,
+   "orig_sigma_bound_seeds": 0,
+   "corr_sigma_bound_seeds": 0,
+   "corr_conv": 10
+  }
+ ],
+ "sigma_bound_targets": {
+  "0.001": {
+   "rmse_naive": [],
+   "rmse_exact_only": [
+    [
+     103719,
+     243
+    ]
+   ],
+   "rmse_censoring_aware": [
+    [
+     103719,
+     243
+    ]
+   ],
+   "rmse_naive_matched": [
+    [
+     100686,
+     621
+    ],
+    [
+     103719,
+     243
+    ]
+   ]
+  },
+  "0.01": {
+   "rmse_naive": [],
+   "rmse_exact_only": [
+    [
+     103719,
+     243
+    ]
+   ],
+   "rmse_censoring_aware": [
+    [
+     103719,
+     243
+    ]
+   ],
+   "rmse_naive_matched": [
+    [
+     100686,
+     621
+    ],
+    [
+     103719,
+     243
+    ]
+   ]
+  },
+  "0.1": {
+   "rmse_naive": [],
+   "rmse_exact_only": [
+    [
+     103719,
+     243
+    ]
+   ],
+   "rmse_censoring_aware": [],
+   "rmse_naive_matched": [
+    [
+     100686,
+     621
+    ],
+    [
+     103719,
+     243
+    ]
+   ]
+  },
+  "1": {
+   "rmse_naive": [],
+   "rmse_exact_only": [
+    [
+     103719,
+     243
+    ]
+   ],
+   "rmse_censoring_aware": [],
+   "rmse_naive_matched": [
+    [
+     103719,
+     243
+    ]
+   ]
+  },
+  "orig": {
+   "rmse_naive": [],
+   "rmse_exact_only": [
+    [
+     103719,
+     243
+    ]
+   ],
+   "rmse_censoring_aware": [
+    [
+     103719,
+     243
+    ]
+   ],
+   "rmse_naive_matched": [
+    [
+     100686,
+     621
+    ],
+    [
+     103719,
+     243
+    ]
+   ]
+  }
+ },
+ "tobit_fits_cens_z_lt_m7": {
+  "0.001": [
+   133,
+   10594,
+   10906,
+   14037,
+   103719,
+   105130
+  ],
+  "0.01": [
+   10906,
+   103719
+  ],
+  "0.1": [],
+  "1": [],
+  "orig": [
+   133,
+   10594,
+   10906,
+   14037,
+   103719,
+   105130
+  ]
+ },
+ "per_arm_best_lam_global": {
+  "rmse_naive": "0.01",
+  "rmse_exact_only": "0.1",
+  "rmse_censoring_aware": "0.01",
+  "rmse_naive_matched": "0.1"
+ },
+ "contrasts_at_per_arm_global_best_lam": {
+  "naive_minus_exact": {
+   "mean": 0.0071,
+   "ci": [
+    -0.0017,
+    0.0158
+   ],
+   "n_worse": 84
+  },
+  "matched_minus_exact": {
+   "mean": 0.0352,
+   "ci": [
+    0.0312,
+    0.0395
+   ],
+   "n_worse": 158
+  },
+  "tobit_minus_exact": {
+   "mean": 0.0558,
+   "ci": [
+    0.0425,
+    0.0705
+   ],
+   "n_worse": 115
+  },
+  "tobit_minus_naive": {
+   "mean": 0.0488,
+   "ci": [
+    0.0408,
+    0.058
+   ],
+   "n_worse": 157
+  }
+ },
+ "contrasts_per_target_oracle_lam": {
+  "naive_minus_exact": {
+   "mean": 0.0204,
+   "ci": [
+    0.0178,
+    0.0232
+   ],
+   "n_worse": 151
+  },
+  "matched_minus_exact": {
+   "mean": 0.0345,
+   "ci": [
+    0.0309,
+    0.0383
+   ],
+   "n_worse": 158
+  },
+  "tobit_minus_exact": {
+   "mean": 0.0674,
+   "ci": [
+    0.0588,
+    0.0768
+   ],
+   "n_worse": 158
+  },
+  "tobit_minus_naive": {
+   "mean": 0.047,
+   "ci": [
+    0.0401,
+    0.0547
+   ],
+   "n_worse": 157
+  },
+  "p3_rho": 0.492,
+  "p3_rho_matched": 0.803
+ },
+ "mean_rmse": {
+  "0.001": {
+   "rmse_naive": 0.8852,
+   "rmse_exact_only": 0.9629,
+   "rmse_censoring_aware": 0.9878,
+   "rmse_naive_matched": 1.0095
+  },
+  "0.01": {
+   "rmse_naive": 0.7526,
+   "rmse_exact_only": 0.7545,
+   "rmse_censoring_aware": 0.8014,
+   "rmse_naive_matched": 0.7901
+  },
+  "0.1": {
+   "rmse_naive": 0.7746,
+   "rmse_exact_only": 0.7456,
+   "rmse_censoring_aware": 0.832,
+   "rmse_naive_matched": 0.7807
+  },
+  "1": {
+   "rmse_naive": 0.972,
+   "rmse_exact_only": 0.9276,
+   "rmse_censoring_aware": 1.0695,
+   "rmse_naive_matched": 0.9724
+  }
+ }
+}
